@@ -2,24 +2,19 @@
 
 <ul class="speakers-list">
 <% for speaker in @schedule: %>
-  <% if speaker.presentation: %>
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      <% if speaker.photo: %>
-        <span class="speaker-photo">
-          <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
-        </span>
-      <% end %>
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    <% if speaker.photo: %>
+      <span class="speaker-photo">
+        <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+      </span>
+    <% end %>
 
-      <h3 class="speech-title">
-        <% if speaker.presentation.time: %>
-          <span class="speech-time"><%= speaker.presentation.time %></span>
-        <% end %>
-          <span> <%= speaker.presentation.title %></span>
-      </h3>
-
-      <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
+    <div class="speakers-content">
+      <h3 class="speakers-name"><%= speaker.name %></h3>
+      <p class="speakers-company"><%= speaker.company %></p>
       <p class="speakers-bio"><%= speaker.bio %></p>
-    </li>
-  <% end %>
+    </div>
+    <p class="speaker-contact"><% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></p>
+  </li>
 <% end %>
 </ul>

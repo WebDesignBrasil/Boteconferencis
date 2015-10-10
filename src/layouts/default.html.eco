@@ -23,8 +23,11 @@
   <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
 
   <!-- STYLES -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
   <!-- / STYLES -->
+
+  <link rel="stylesheet" href="https://dk57nqppwurwj.cloudfront.net/ingresse-widget.css">
 
 </head>
 <body>
@@ -70,6 +73,8 @@
       })();
   </script>
   <!-- /GOOGLE ANALYTICS -->
+
+  <script src="https://dk57nqppwurwj.cloudfront.net/ingresse-widget.js"></script>
 
 </body>
 </html>

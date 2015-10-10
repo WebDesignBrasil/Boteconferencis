@@ -14,13 +14,7 @@
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
-        <% if @conf.price: %>
-          <span class="price">Only <%= @conf.price %></span>
-        <% end %>
-
-        <% if @callToAction: %>
-          <a href="<%= @callToAction.link %>" class="call-action-link" title="<%= @callToAction.text %>"><%= @callToAction.text %></a>
-        <% end %>
+        <div class="ingresse-widget" data-eventid="15122" style="display: inline-block;"></div>
       </div>
     <% end %>
   </div>

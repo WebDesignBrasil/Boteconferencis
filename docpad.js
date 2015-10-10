@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
+      name: "Web Design Boteconferencis",
       description: "Conference description",
-      date: "November 15",
+      date: "26 de Novembro às 20hrs",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "R$30,00",
+      venue: "House of Learning",
+      address: "R. Dr. Virgílio de Carvalho Pinto, 69 - Pinheiros",
+      city: "São Paulo",
+      state: "SP"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Comprar Ingressos!",
+        link: "https://www.ingresse.com/boteconferencis"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //     repository: "https://github.com/braziljs/conf-boilerplate"
+    // },
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://boteconferencis.ingresse.com",
+      googleanalytics: "UA-11980538-7"
     },
 
     // Active sections on the website
@@ -44,125 +44,83 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      'schedule',
-      'sponsors',
+      // 'schedule',
+      // 'sponsors',
       'partners'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Localização",
+      speakers: "Participantes",
+      schedule: "Agenda",
+      sponsors: "Patrocinadores",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
-      },
-      {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Gabriel Benarrós",
+        photo: "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/548900_10151326446686436_1006774967_n.jpg?oh=906016226a80aa8a72b9b1e29f4ca879&oe=5684C697&__gda__=1456055770_16d509b04935bbc47ae1b5c577b65e19",
+        bio: "Empreendedor fundador da Ingresse.",
+        company: "Ingresse",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
-        },
-        presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          href: "https://www.linkedin.com/in/benarros/pt",
+          text: "linkedin"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "David Ruiz",
+        photo: "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/12088294_10153269676857956_8327263627422645534_n.jpg?oh=427c0751f3c3c25731271c536b76e4b3&oe=56CBD53F",
+        bio: "CTO da Ingresse e da Campus Party, representante da Mozilla",
+        company: "Ingresse, Campus Party e Mozilla",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          href: "https://br.linkedin.com/in/wupsbr",
+          text: "linkedin"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        name: "Daniel Borlino",
+        photo: "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/10583981_767334813303798_7989639994818683624_n.jpg?oh=eef76e93cc22e543f7d7967cab008134&oe=56CDC85E&__gda__=1456648453_5652966b699c76e203619028d9edf975",
+        bio: "Organizador do Boteconference, Sócio no Meatless e Engenheiro Fron-end especializado em Angular.js na Ingresse.com.",
+        company: "Ingresse e Meatless",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          href: "https://www.facebook.com/daniel.terra",
+          text: "facebook"
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Filipe Santos",
+        photo: "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11822295_999105336809024_9126701963551687503_n.jpg?oh=c96ce20d8ea60722cf58095044c747a3&oe=56915849",
+        bio: "Organizador do Boteconference, Fundador da EX3 Comunicação, programador fron-end.",
+        company: "EX3 Comunicação",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          href: "https://www.facebook.com/Filipe.santss",
+          text: "facebook"
         }
       },
       {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        name: "Keven Jesus",
+        photo: "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12003945_714135088691588_5403367596511610957_n.jpg?oh=37b2895f76023d09a1063da5e9099005&oe=56C978AA",
+        bio: "Organizador do Boteconference, programador fron-end.",
+        company: "Grupo KRS",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          href: "https://www.facebook.com/kevenjesus",
+          text: "facebook"
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Tereza Alux",
+        photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p160x160/12032238_900831266674127_7902646899766538149_n.jpg?oh=991e291681e32cb2fa06aa5ddab0b2a6&oe=56D2FD8C&__gda__=1453259312_94f9cc5f161748b2e6980ca993f9d686",
+        bio: "Organizadora do Boteconference, colunista no Choco la Design, Designer.",
+        company: "Choco la Design",
         link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          href: "https://www.facebook.com/tetecristina",
+          text: "facebook"
         }
       }
     ],
@@ -170,18 +128,18 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
+        name: "Ingresse",
         logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        url: "https://www.ingresse.com"
       }
     ],
 
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Ingresse",
+        logo: "themes/yellow-swan/img/ingresse.png",
+        url: "https://www.ingresse.com"
       }
     ],
 

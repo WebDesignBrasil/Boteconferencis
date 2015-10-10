@@ -1,6 +1,9 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p itemprop="description">O Web Design Boteconferencis vem com uma ideia inovadora no cenário de tecnologia, onde criamos um espaço propício para elevar seu networking para outro nível. Temos espaço para todos, seja você designer, programador, empreendedor ou o que quer que seja!</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p>Você vai se sentar em uma mesa para quatro pessoas por 15 minutos, dessa forma a cada 15 minutos você vai conhecer três novas pessoas com experiências para ser compartilhadas.</p>
+
+<p>Com o Networking como tema central do evento, disponibilizamos um cenário perfeito para clarear as idéias de quem esta iniciando na área ou para o empreendedor que possui sua ideia de negócio e deseja encontrar aquele parceiro para sua empreitada!</p>
+
+<p>Não importa seu nível de conhecimento, faculdade que cursou, empresa que trabalhou ou qualquer outra coisa. O Boteconferencis tem como ideia principal aproximar os profissionais para que possam aprender, ensinar, se ajudar e elevar a comunidade a um outro nível.</p>
