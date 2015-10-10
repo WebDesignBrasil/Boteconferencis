@@ -76,7 +76,7 @@ module.exports = {
       {
         name: "David Ruiz",
         photo: "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/12088294_10153269676857956_8327263627422645534_n.jpg?oh=427c0751f3c3c25731271c536b76e4b3&oe=56CBD53F",
-        bio: "CTO da Ingresse e da Campus Party, representante da Mozilla",
+        bio: "CTO da Ingresse e da Futura Networks (Campus Party), representante da Mozilla",
         company: "Ingresse, Campus Party e Mozilla",
         link: {
           href: "https://br.linkedin.com/in/wupsbr",
