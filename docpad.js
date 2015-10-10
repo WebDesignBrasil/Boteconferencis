@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "Web Design Boteconferencis",
-      description: "Conference description",
+      description: "O Web Design Boteconferencis vem com uma ideia inovadora no cenário de tecnologia, onde criamos um espaço propício para elevar seu networking para outro nível. Temos espaço para todos, seja você designer, programador ou empreendedor!",
       date: "26 de Novembro às 20hrs",
       // If your event is free, just comment this line
       price: "R$30,00",
