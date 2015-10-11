@@ -86,7 +86,7 @@ module.exports = {
       {
         name: "Daniel Borlino",
         photo: "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/10583981_767334813303798_7989639994818683624_n.jpg?oh=eef76e93cc22e543f7d7967cab008134&oe=56CDC85E&__gda__=1456648453_5652966b699c76e203619028d9edf975",
-        bio: "Organizador do Boteconference, Sócio no Meatless e Engenheiro Fron-end especializado em Angular.js na Ingresse.com.",
+        bio: "Organizador do Boteconference e Engenheiro Front-end especializado em Angular.js na Ingresse.com.",
         company: "Ingresse e Meatless",
         link: {
           href: "https://www.facebook.com/daniel.terra",
