@@ -112,16 +112,6 @@ module.exports = {
           href: "https://www.facebook.com/kevenjesus",
           text: "facebook"
         }
-      },
-      {
-        name: "Tereza Alux",
-        photo: "http://i.imgur.com/heNiV9A.jpg",
-        bio: "Organizadora do Boteconference, colunista no Choco la Design, Designer.",
-        company: "Choco la Design",
-        link: {
-          href: "https://www.facebook.com/tetecristina",
-          text: "facebook"
-        }
       }
     ],
 
