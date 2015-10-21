@@ -86,7 +86,7 @@ module.exports = {
       {
         name: "Daniel Borlino",
         photo: "http://i.imgur.com/meaa2sc.jpg",
-        bio: "Organizador do Boteconference, Sócio no Meatless e Engenheiro Fron-end especializado em Angular.js na Ingresse.com.",
+        bio: "Organizador do Boteconference, Sócio no Meatless e Engenheiro Front-end especializado em Angular.js na Ingresse.com.",
         company: "Ingresse e Meatless",
         link: {
           href: "https://www.facebook.com/daniel.terra",
@@ -96,7 +96,7 @@ module.exports = {
       {
         name: "Filipe Santos",
         photo: "http://i.imgur.com/PWJYfle.jpg",
-        bio: "Organizador do Boteconference, Fundador da EX3 Comunicação, programador fron-end.",
+        bio: "Organizador do Boteconference, Fundador da EX3 Comunicação, programador front-end.",
         company: "EX3 Comunicação",
         link: {
           href: "https://www.facebook.com/Filipe.santss",
@@ -106,20 +106,10 @@ module.exports = {
       {
         name: "Keven Jesus",
         photo: "http://i.imgur.com/JGqLfHH.jpg",
-        bio: "Organizador do Boteconference, programador fron-end especializado em ReactJS.",
+        bio: "Organizador do Boteconference, programador front-end especializado em ReactJS.",
         company: "Grupo KRS",
         link: {
           href: "https://www.facebook.com/kevenjesus",
-          text: "facebook"
-        }
-      },
-      {
-        name: "Tereza Alux",
-        photo: "http://i.imgur.com/heNiV9A.jpg",
-        bio: "Organizadora do Boteconference, colunista no Choco la Design, Designer.",
-        company: "Choco la Design",
-        link: {
-          href: "https://www.facebook.com/tetecristina",
           text: "facebook"
         }
       }
