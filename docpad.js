@@ -96,7 +96,7 @@ module.exports = {
       {
         name: "Filipe Santos",
         photo: "http://i.imgur.com/PWJYfle.jpg",
-        bio: "Organizador do Boteconference, Fundador da EX3 Comunicação, programador fron-end.",
+        bio: "Organizador do Boteconference, Fundador da EX3 Comunicação, programador front-end.",
         company: "EX3 Comunicação",
         link: {
           href: "https://www.facebook.com/Filipe.santss",
@@ -106,7 +106,7 @@ module.exports = {
       {
         name: "Keven Jesus",
         photo: "http://i.imgur.com/JGqLfHH.jpg",
-        bio: "Organizador do Boteconference, programador fron-end especializado em ReactJS.",
+        bio: "Organizador do Boteconference, programador front-end especializado em ReactJS.",
         company: "Grupo KRS",
         link: {
           href: "https://www.facebook.com/kevenjesus",
