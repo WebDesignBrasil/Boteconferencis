@@ -14,7 +14,7 @@
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
-        <div class="ingresse-widget" data-eventid="15122" style="display: inline-block;"></div>
+        <div class="ingresse-widget" onclick="trackBuyClick()" data-eventid="15122" style="display: inline-block;"></div>
       </div>
     <% end %>
   </div>
