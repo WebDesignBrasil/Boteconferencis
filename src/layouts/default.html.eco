@@ -78,6 +78,12 @@
   function trackFacebookPage() {
     ga('send', 'event', 'Button', 'facebookPage');
   };
+
+  window.onhashchange = function() {
+    ga('send', 'pageview', {
+     'page': location.pathname + location.search  + location.hash
+    });
+  };
   </script>
   <!-- End Google Analytics -->
 
