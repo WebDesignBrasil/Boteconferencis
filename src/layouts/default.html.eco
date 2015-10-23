@@ -74,6 +74,10 @@
   function trackBuyClick() {
     ga('send', 'event', 'Button', 'buy');
   };
+
+  function trackFacebookPage() {
+    ga('send', 'event', 'Button', 'facebookPage');
+  };
   </script>
   <!-- End Google Analytics -->
 
