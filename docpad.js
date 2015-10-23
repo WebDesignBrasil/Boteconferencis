@@ -66,10 +66,20 @@ module.exports = {
       {
         name: "Gabriel Benarrós",
         photo: "http://i.imgur.com/JsZ5ER9.jpg",
-        bio: "Empreendedor fundador da Ingresse.",
+        bio: "Empreendedor, fundador da Ingresse.",
         company: "Ingresse",
         link: {
           href: "https://www.linkedin.com/in/benarros/pt",
+          text: "linkedin"
+        }
+      },
+      {
+        name: "Michel Oliveira",
+        photo: "themes/yellow-swan/img/palestrantes/foto-michel-oliveira.jpg",
+        bio: "Líder, Desenvolvedor Back-end e ator",
+        company: "Coltrane.Co",
+        link: {
+          href: "https://br.linkedin.com/in/micheloliveira/pt",
           text: "linkedin"
         }
       },
