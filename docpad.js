@@ -33,7 +33,7 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://boteconferencis.ingresse.com",
+      url: "http://webdesignbrasil.github.io/Boteconferencis/",
       googleanalytics: "UA-11980538-7"
     },
 
