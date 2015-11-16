@@ -27,6 +27,12 @@ p {
   line-height:1.6em;
   margin-bottom: 1.4em;
 }
+
+li {
+  font-size: 14px;
+  line-height: 18px;
+}
+
 .photo {
   width: 100%;
 }
@@ -96,14 +102,17 @@ nav {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+.speakers-list {
+  text-align: center;
+}
 .speakers-item {
   position: relative;
-  font-size: 1.4em;
+  font-size:1em;
   background: #FFF;
   width: 400px;
-  float: left;
   margin: 20px 20px 0px 0px;
   box-shadow: 0 0 5px #CCC;
+  display: inline-block;
 }
 .speaker-photo {
   position: relative;
@@ -126,11 +135,11 @@ nav {
 
 .speakers-content {
   padding: 20px 10px 0px 0px;
+  text-align: left;
 }
 
 .speakers-bio {
   padding-top: 5px;
-  font-size: 0.8em;
 }
 
 .speaker-contact {
@@ -138,10 +147,15 @@ nav {
   margin: 0px;
   text-align: center;
   padding: 10px;
-  font-size: 1em;
   clear: both;
 }
-.speakers-name{font-size:1.4em;}
+.speakers-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.speakers-company {
+  display: block;
+}
 
 /* =============================================================================
    SCHEDULE
@@ -176,17 +190,16 @@ nav {
   width: 250px;
   font-size:16px;
 }
-.speakers-company {
-  display: block;
-  font-size:12px;
-}
 
 /* =============================================================================
    SPONSORS  and  PARTNERS
    ========================================================================== */
+.partners-list {
+  text-align: center;
+}
 .sponsor-item, .partner-item {
   display: inline-block;
-  margin: 0 30px 30px 0;
+  margin: 30px;
 }
 .sponsor--link, .partner-link {
   display: block;

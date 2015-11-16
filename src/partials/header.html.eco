@@ -6,15 +6,14 @@
 
 <!-- HEADER -->
 <header class="header">
-  <div class="wrapper">
-    <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+  <div class="wrapper" style="display:none;">
+    <h1 class="logo-name" >
+      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name">Web Design </br>Boteconferencis</a>
     </h1>
     <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
-        <div class="ingresse-widget" onclick="trackBuyClick()" data-eventid="15122" style="display: inline-block;"></div>
       </div>
     <% end %>
   </div>

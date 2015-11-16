@@ -8,10 +8,10 @@ module.exports = {
     // Conference info
     conf: {
       name: "Web Design Boteconferencis",
-      description: "O Web Design Boteconferencis vem com uma ideia inovadora no cenário de tecnologia, onde criamos um espaço propício para elevar seu networking para outro nível. Temos espaço para todos, seja você designer, programador ou empreendedor!",
+      description: "Nós trabalhamos com web e amamos falar sobre tecnologia e empreendedorismo, fizemos esse evento para criar um espaço onde profissionais e empreendedores possam trocar idéias e tomar cerveja, como se conversa com amigos em um boteco de forma descontraída.",
       date: "26 de Novembro às 20hrs",
       // If your event is free, just comment this line
-      price: "R$30,00",
+      price: "R$35,00",
       venue: "House of Learning",
       address: "R. Dr. Virgílio de Carvalho Pinto, 69 - Pinheiros",
       city: "São Paulo",
@@ -42,11 +42,11 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'location',
       'speakers',
-      // 'schedule',
+      'partners',
+      'location'
       // 'sponsors',
-      'partners'
+      // 'schedule',
       // 'contact'
     ],
 

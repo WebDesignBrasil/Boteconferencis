@@ -1,9 +1,19 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
+<h2 class="section-title">Boteco + Conferência</h2>
 
-<p itemprop="description">O Web Design Boteconferencis vem com uma ideia inovadora no cenário de tecnologia, onde criamos um espaço propício para elevar seu networking para outro nível. Temos espaço para todos, seja você designer, programador, empreendedor ou o que quer que seja!</p>
+<div itemprop="description">
+    <p>Nós trabalhamos com web e amamos falar sobre tecnologia e empreendedorismo, fizemos esse evento para criar um espaço onde profissionais e empreendedores possam trocar idéias e tomar cerveja, como se conversa com amigos em um boteco de forma descontraída.</p>
 
-<p>Você vai se sentar em uma mesa para quatro pessoas por 15 minutos, dessa forma a cada 15 minutos você vai conhecer três novas pessoas com experiências para ser compartilhadas.</p>
+    <p>Convidamos profissionais experientes no mercado (da uma olhada na lista ali embaixo) pra você poder tirar dúvidas e compartilhar suas idéias.</p>
 
-<p>Com o Networking como tema central do evento, disponibilizamos um cenário perfeito para clarear as idéias de quem esta iniciando na área ou para o empreendedor que possui sua ideia de negócio e deseja encontrar aquele parceiro para sua empreitada!</p>
+    <p>As vagas são limitadas, apenas 30, assim todo mundo consegue se conhecer, e a cerveja é cortesia!</p>
 
-<p>Não importa seu nível de conhecimento, faculdade que cursou, empresa que trabalhou ou qualquer outra coisa. O Boteconferencis tem como ideia principal aproximar os profissionais para que possam aprender, ensinar, se ajudar e elevar a comunidade a um outro nível.</p>
+    <p>Garanta já o seu ingresso e venha tomar uma com a gente!</p>
+
+    <ul>
+        <li><img src="themes/yellow-swan/img/beer.png" alt=""></br>Cerveja cortesia</li>
+        <li><img src="themes/yellow-swan/img/person.png" alt=""></br>Profissionais experientes</li>
+        <li><img src="themes/yellow-swan/img/linha4.jpg" alt=""></br>Próximo ao metrô</li>
+    </ul>
+
+    <div class="ingresse-widget" onclick="trackBuyClick()" data-eventid="15122" style="display: inline-block;"></div>
+</div>
