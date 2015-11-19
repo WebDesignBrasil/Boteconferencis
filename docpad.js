@@ -84,22 +84,22 @@ module.exports = {
         }
       },
       {
-        name: "Blenner Souza",
-        photo: "themes/yellow-swan/img/palestrantes/foto-blenner.jpg",
-        bio: "Diretor de Criação, publicitário e Entusiasta em IoT, Realidade Aumentada e Wearables",
-        company: "EX3 Comunicação",
-        link: {
-          href: "https://br.linkedin.com/in/blennersouza/pt",
-          text: "linkedin"
-        }
-      },
-      {
         name: "David Ruiz",
         bio: "CTO da Ingresse e da Futura Networks (Campus Party), representante da Mozilla",
         photo: "http://i.imgur.com/BUZmzZA.jpg",
         company: "Ingresse, Campus Party e Mozilla",
         link: {
           href: "https://br.linkedin.com/in/wupsbr",
+          text: "linkedin"
+        }
+      },
+      {
+        name: "Blenner Souza",
+        photo: "themes/yellow-swan/img/palestrantes/blenner.jpg",
+        bio: "Diretor de Criação, publicitário e Entusiasta em IoT, Realidade Aumentada e Wearables",
+        company: "EX3 Comunicação",
+        link: {
+          href: "https://br.linkedin.com/in/blennersouza/pt",
           text: "linkedin"
         }
       },
